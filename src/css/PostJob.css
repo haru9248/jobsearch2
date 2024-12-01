@@ -1,0 +1,46 @@
+.post-container {
+    margin: 10px 30px ;
+    font-family:monospace;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+label {
+    display:block;
+    margin-bottom:10px;
+}
+
+select {
+    appearance: none;
+    border:2px solid rgb(231, 231, 233);
+    border-radius: 0;
+    width:250px;
+    height:30px;
+    padding:5px 5px 5px 15px;
+    margin-bottom:10px;
+}
+
+input {
+    border:2px solid rgb(231, 231, 233);
+    width:230px;
+    height:20px;
+    padding:5px 5px 5px 15px;
+    margin-bottom:10px;
+}
+
+.title{
+    width:500px;
+}
+
+button {
+    margin-top:20px;
+    border-radius:5px;
+    background-color:rgb(23, 168, 221);
+    color:white;
+    width:250px;
+    height:40px;
+    font-size:15px
+}
+
