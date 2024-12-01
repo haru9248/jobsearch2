@@ -48,7 +48,7 @@ const PostJob: React.FC = () => {
         }
 
         try {
-            const response = await axiosClient.post('/jobs', {
+            await axiosClient.post('/jobs', {
                 title,
                 salary: sanitizedSalary,
                 category_id: categoryId,
