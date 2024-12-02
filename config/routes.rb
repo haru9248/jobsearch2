@@ -1,10 +1,12 @@
+# config/routes.rb
 Rails.application.routes.draw do
-  get 'home/index'
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  # APIエンドポイントを設定
+  namespace :api do
+    namespace :v1 do
+      get 'home', to: 'home#index'
+    end
+  end
 
-  # Defines the root path route ("/")
-  # root "articles#index"
-  root 'home#index'
   resources :categories, only: [:index]
   resources :jobs
 end
